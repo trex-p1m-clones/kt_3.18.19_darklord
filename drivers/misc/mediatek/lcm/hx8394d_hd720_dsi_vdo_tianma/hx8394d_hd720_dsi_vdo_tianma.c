@@ -856,7 +856,7 @@ void lcm_get_pq_vivid_param_tianma(DISP_PQ_PARAM_LCD *pq_data)
 
 LCM_DRIVER hx8394d_hd720_dsi_vdo_tianma_lcm_drv = 
 {
-	.name			= "hx8394d_hd720_dsi_tianma_vdo",
+	.name			= "hx8394d_hd720_dsi_vdo_tianma",
 	.set_util_funcs = lcm_set_util_funcs,
 	.get_params     = lcm_get_params,
 	.init           = lcm_init,
